@@ -1,0 +1,7 @@
+<suite name="BDD Cucumber" verbose = "2" parallel = "classes" thread-count="5">
+    <test name = "Login page test">
+        <classes>
+            <class>runner.TestRunner</class>
+        </classes>
+    </test>
+</suite>
