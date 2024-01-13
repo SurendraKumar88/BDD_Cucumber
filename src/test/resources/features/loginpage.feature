@@ -6,10 +6,10 @@ Feature: Validate Login page features
   Scenario: Login with valid credentials and verify page title
 
     When Click on login button
-    Then Validate page title
+    Then Validate page title "Gmail"
 
 
   Scenario: Verify page logo
 
     When Click on login button
-    Then Validate page Logo
+    Then Validate page Logo "Google"

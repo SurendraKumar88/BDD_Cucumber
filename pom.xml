@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>BDD_Cucumber1</artifactId>
+    <artifactId>BDD_Cucumber</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -43,6 +43,15 @@
         <version>7.7.1</version>
         <scope>test</scope>
     </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>5.6.2</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
