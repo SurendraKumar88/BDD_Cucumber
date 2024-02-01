@@ -6,9 +6,10 @@ import objectrepository.HomePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-import static genericlib.BaseClass.driver;
+import static stepdefinations.BaseClass.driver;
 
-public class HomePageStepDef{
+
+public class HomePageStepDef {
     @Then("Validate page url")
     public void validatePageUrl() {
         System.out.println("validatePageUrl");
@@ -24,6 +25,7 @@ public class HomePageStepDef{
         HomePage home = PageFactory.initElements(driver, HomePage.class);
         home.enter_emial_in_textbox_and_click_on_next(email_id);
     }
+
     @Then("Validate invalid error message {string}")
     public void validate_invalid_error_message(String exp_error_msg) {
         HomePage home = PageFactory.initElements(driver, HomePage.class);
